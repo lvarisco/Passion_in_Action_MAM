@@ -1,0 +1,9 @@
+clear
+a=5;
+b=4;
+c=a*b;
+area=area_trinagolo(a,b);
+%%
+base=4;
+altezza=5;
+save('dati',"altezza","base")

@@ -1,4 +1,4 @@
-#Lezione 1
+# Lezione 1
 
 ## Variabile i
 

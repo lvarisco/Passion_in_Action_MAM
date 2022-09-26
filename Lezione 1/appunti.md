@@ -16,8 +16,6 @@ Con il comando `clear` è possibile cancellare tutte le variabili all'interno de
 
 Il comando `function` serve a creare una nuova function. Esso va inserito all'inizio dello script, seguito dal nome della varibile di output, l'=', il nome della funtion e le variabili di input poste tra `()` e separate dalla `,`.</br></br>La function, se eseguita direttamente con il tato `run`, produce un errore, essa, infatti, deve essere eseguita nella command window oppure richiamata in un altro script inserendo i dati di input.</br></br>**N.B.** : se la function è richiamata in un altro script, tale script e lo script contente la function (che deve avere lo stesso nome della function) devono essere salvati nella stessa cartella.
 
-## Debug
-
 ## Sezione
 
 È possibile dividere uno script in sezioni andando ad inserire `%%`. Dividendo uno script in sezioni è possibile eseguire una sola sezione alla volta. Le sezioni, quindi, possono essere molto utili anche nel processo di debug.

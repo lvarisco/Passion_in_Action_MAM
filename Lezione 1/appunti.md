@@ -25,27 +25,27 @@ Il comando `function` serve a creare una nuova function. Esso va inserito all'in
 ## Matrici
 
 È possibile inizializzare una matrice andando ad inserire i valori della stessa all'interno di `[]`, separando i valori di colonne diversa con uno spazio e le diverse righe con un `;`.
-```
+```Matlab
 M= [a b c;d e f];
 ```
 </br>
 
 È possibile anche inizializzare una matrice nulla tramite il comando `zeros()`, inserendo nelle `()` il numero di righe e il numero di colonne separati da una `,`. Se all'interno delle `()` si inserisce un solo valore verrà creata una matrice quadrata nulla.
-```
+```Matlab
 N=zeros(g,h);
 P=zeros(j);
 ```
 </br>
 
 Una volta inizializzata una matrice si possono cambiare dei valori al suo interno.
-```
+```Matlab
 N(1,1)=5;
 N(:,2)=[3 3 3]; % i : identificano tutta la riga o tutta la colonna in base alla sua posizione
 ```
 </br>
 
 Tra due matrici diverse (che rispettano i prerequisiti perchè si possa effettivamente effettuare una tale operazione tra esse) si possono effetture delle operazioni.
-```
+```Matlab
 X1=N+P; % somma tra due matrici
 X2=M*N; % prodotto matriciale --> una matrice deve essere n*m e una m*n
 X3=N.*P; % prodotto punto a punto tra due matrici --> le matrici devono avere le stesse dimensioni
@@ -53,7 +53,7 @@ X3=N.*P; % prodotto punto a punto tra due matrici --> le matrici devono avere le
 ## Save
 
 Con il comando `save` è possibile salvare i dati presenti nel `Workspace` in un file.
-```
+```Matlab
 save('filename') % salva tutti i dati presenti nel workspace in un file denominato 'filename'
 save('filename','a') % salva solamente la variabile 'a' presente nel workspace in un file denominato 'filename'
 ```
@@ -61,6 +61,6 @@ save('filename','a') % salva solamente la variabile 'a' presente nel workspace i
 ## Load
 
 Con il comando `load` è possibile caricare i dati presenti in un file.
-```
+```Matlab
 load('filename') % carica tutti i dati presenti nel file denominato 'filename'
 ```

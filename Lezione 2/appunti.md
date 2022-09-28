@@ -34,7 +34,7 @@ Il comando `warndlg` crea un pop up con un warning.
 warndlg('Text')
 ```
 
-## ciclo for
+## Ciclo for
 
 Il ciclo `for` permette di eseguire un numero di volte definito il blocco di codice contenuto in esso.
 ```Matlab
@@ -95,7 +95,7 @@ Il comando `mean` restituisce il valore medio dei valori forniti in ingresso.
 mean(vector(:,n))
 ```
 
-## std
+## Deviazione standard
 
 Il comando `std` restituisce la deviazione standard dei valori forniti in ingresso.</br>Lo scarto quadratico medio, o deviazione standard, è un indice di dispersione statistico, vale a dire una stima della variabilità di una popolazione di dati o di una variabile casuale. È uno dei modi per esprimere la dispersione dei dati intorno ad un indice di posizione.
 ```Matlab

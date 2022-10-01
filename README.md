@@ -3,4 +3,4 @@ Appunti ed esercizi relativi al corso "Passion in Action" di Meccanica Applicata
 
 ## Appunti
 - [Lezione 1](Lezione1/appunti.md)
-- [Lezione 2](./Lezione2/appunti.md)
+- [Lezione 2](Lezione2/appunti.md)

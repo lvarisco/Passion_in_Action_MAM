@@ -7,11 +7,11 @@ I conditional statements consentono di selezionare in fase di esecuzione quale b
 ```Matlab
 if expression
 	statements
-ELSEIF expression
+elseif expression
 	statements
-ELSE
+else
 	statements
-END
+end
 ```
 
 ## Indentature automatiche
@@ -86,7 +86,7 @@ variable_2=answer{2};
 
 ## Cell array
 
-Un **cell array** è un tipo di dati con contenitori indicizzati denominati **celle**. Ogni cella può contonere qualsiasi tipo di dati (numeri, stringhe, ...).</br>Per accedere al contenuto di una cella bisogna racchiudere gli indici tra le `{}`, per esempio: `cell_array{1}`.
+Un **cell array** è un tipo di dati con contenitori indicizzati denominati **celle**. Ogni cella può contenere qualsiasi tipo di dati (numeri, stringhe, ...).</br>Per accedere al contenuto di una cella bisogna racchiudere gli indici tra le `{}`, per esempio: `cell_array{1}`.
 
 ## Media o valore medio
 

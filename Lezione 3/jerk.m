@@ -6,30 +6,36 @@ close all
 clc
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Condizioni iniziali e finali
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 xA=0;
 tA=0;
-xB=67.5; %% [cm]
-tB=1.3; %% [s]
+xB=67.5; % [cm]
+tB=1.3; % [s]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% matrice dei coefficienti ridotta
+% Legge di moto
 AA=[tB^3 tB^4 tB^5;
     3*tB^2 4*tB^3 5*tB^4;
-    6*tB 12*tB^2 20*tB^3];
+    6*tB 12*tB^2 20*tB^3]; %matrice dei coefficienti ridotta
 bb=[xB 0 0]';
 
 a=inv(AA)*bb;
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Grafici realitivi al minimum jerk
 
-atot=[0 0 0 a'];
+atot=[0 0 0 a']; %coefficienti del polinomio di quinto grado
+
 indice=length(atot):-1:1;
-atot=atot(indice);
+atot=atot(indice); %inversione dell'ordine degli elementi del vettore atot
 %atot=flip(atot);
-t=tA:0.001:tB;
+
+t=tA:0.001:tB; %intervallo temporale in cui valutare i polinomi
 x=polyval(atot,t);
+
 atotp=polyder(atot); %coefficienti della derivata prima
 xp=polyval(atotp,t); %velocità
+
 atotpp=polyder(atotp); %coefficienti della derivata seconda
 xpp=polyval(atotpp,t); %accelerazione
+
 atotppp=polyder(atotpp); %coefficienti della derivata terza
 xppp=polyval(atotppp,t); %jerk
 
@@ -43,6 +49,7 @@ hold on
 plot(t_wind,S_wind,'g','DisplayName','Sperimentale')
 grid on
 ylabel('S [m]')
+
 subplot(412)
 plot(t+tin,xp/100,'r','DisplayName','Teorico')
 hold on
@@ -55,6 +62,7 @@ hold on
 plot(t_wind,Acc_wind,'g','DisplayName','Sperimentale')
 grid on
 ylabel('A [m/s^2]')
+
 subplot(414)
 plot(t+tin,xppp/100,'r','DisplayName','Teorico')
 hold on

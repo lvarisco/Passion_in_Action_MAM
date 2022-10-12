@@ -1,0 +1,16 @@
+# Lezione 4
+
+## Esoscheletro per arto superiore
+
+L'**esoscheletro per arto superiore** è una struttura costituita da una serie di meccanismi meccanici (in particolare **aste** e **cerniere**) che vengono fissati a lato dell'arto (spalla, gomito e polso) per assistere il movimento dell'arto stesso. Lo **schema meccanico** dell'esoscheletro corrisponde ad un **quadrilatero articolato**.</br>
+L'esoscheletro può essere utilizzato come supporto al movimento in caso di disabilità completa o parziale, ma trova impiego anche nel mondo del lavoro come supporto per sostenere lavori gravosi, in tal caso si parla di empowerment.</br>
+Esistono due tipologie di esoscheletri: gli **esosheletri passivi** e gli **esoscheletri attivi**. Un **esoscheletro passivo** non presenta componenti motorizate ed è principalmente finalizzato al **movimento antigravitario**, poichè, grazie alla meccanica dei componenti e grazie alla presenza di elementi meccanici elastici in grado di eliminare completamente la gravità in un certo piano di spostamento (dettato dalle calibrazioni).Un esoscheletro motorizzato, invece, presenta componenti motorizzate.</br>
+Per quanto riguarda l'articolazione del braccio, è importante considerare che il centro di rotazione della spalla, durante il movimento, cambia continuamente. Per questo motivo i punti di contatto dell'esoscheletro con l'arto superiore sono posizionati sul braccio e sull'avambraccio, in modo tale da lasciare sufficiente spazio per il movimento della spalla.</br>
+Al termine dell'esoscheletro (in prossimità della mano) può esserci un **handle**, che presenta dei **sensori di pressione** che sono in grado di percepire la pressione esercitata dal palmo e dalle dita. Questi sensori possono risultare molto utili nel campo della realtà virtuale per simulare la presa degli oggetti.
+
+## Polaris Vicra
+
+**Polaris Vicra** è un dispositivo in grado di acquisire la posizione puntuale di alcuni **marker** con una certa frequenza ed entro un determinato spazio di lavoro. Ciascun marker vie posizionato in punti strategici. In ambiti clinici i marker vengono posizionati secondo un protocollo predefinito, in modo tale da ottenere misurazioni universali. Per l'acquisizione dei dati possono essere sviluppati ed utilizzati degli **algoritmi di tracking dei frame** o dei **tool** (composti ciascuno da tre marker), anche se i tool possono essere utilizzati solamente in spazi di lavoro realtivamente piccoli. Esistono, inoltre, algoritmi per effettura **tracking marker-less**, ovvero senza l'utilizzo di marker.</br>
+Nell'acquisizione di dati sperimentali, si possono riscontrare degli errori di misurazione. Si potrebbe, per esempio, riscontrare un buco nei dati. Questo accade quando il marker non viene trackato per una certa quantità di tempo. In questo caso è possibile interpolare i dati tra un punto e l'altro per risalire alle posizioni relative al marker mancante.</br>
+I marker possono essere posizionati direttamente sul braccio o, alternativamente, sull'esoscheletro.</br>
+Una volta acquisiti, i dati vengono salvati in un file formato `.csv`.

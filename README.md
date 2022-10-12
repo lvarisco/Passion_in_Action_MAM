@@ -5,3 +5,4 @@ Appunti ed esercizi relativi al corso "Passion in Action" di Meccanica Applicata
 - [Lezione 1](Lezione%201/appunti.md)
 - [Lezione 2](Lezione%202/appunti.md)
 - [Lezione 3](Lezione%203/appunti.md)
+- [Lezione 3](Lezione%204/appunti.md)

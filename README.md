@@ -6,3 +6,6 @@ Appunti, esercizi e progetti relativi al corso "Passion in Action" di Meccanica 
 - [Lezione 2](Lezione%202/appunti.md)
 - [Lezione 3](Lezione%203/appunti.md)
 - [Lezione 4](Lezione%204/appunti.md)
+
+## Report progetti
+- [Rowing machine](Rowing%20machine/report.md)

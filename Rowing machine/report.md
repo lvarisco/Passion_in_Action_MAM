@@ -52,11 +52,13 @@ Per calcolare la lunghezza delle sezioni prossimale (tra anca e ginocchio) e dis
 ### Range of motion
 
 Per calcolare il range of motion, ovvero l'escursione angolare, del ginocchio è necessario calcolare l'angolo formato dalle due aste (che rappresentano le sezioni prossimale e distale della gamba), selezionare l'angolo massimo e quello minimo e farne la differenza.
+![Range of motion](./img/figure%021.jpg)
 
 ### Velocità e accelerazione dell'anca
 
 La velocità e l'accelerazione assoluta dell'anca (punto B nello [schema cinematico](./report.md#rappresentazione-grafica)) sono entrambe dirette orizzontalmente a causa del vincolo di carrello, posto proprio in corrispondenza dell'estremo B dell'asta AB (sezione prossimale della gamba).</br>
 Per calcolare le suddette grandezze in ogni istante di tempo, partendo dai dati sperimentali, è possibile sfruttare la definizione di derivata temporale calcolando il rapporto tra la differenza tra la coordinata x dell'anca nell'istante seguente a quello considerato e quella nell'istante cosiderato e l'intervallo di tempo dt. In questo modo, tramite un ciclo `for`, è possibile creare un vettore di velocità e accelerazioni istantanee dell'anca in ogni istante di tempo.
+
 
 ### Risoluzione teorica del cinematismo
 

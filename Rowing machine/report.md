@@ -36,9 +36,9 @@ Ogni matrice è composta da N righe (dove N è il numero di campioni della serie
 ### Gradi di libertà
 
 Il sistema è composto da **due corpi rigidi**, caratterizzati ciascuno da 3 GDL, per un totale di **6 GDL**.</br>
-La cerinera a terra (in corrispondenza della caviglia), toglie 2 GDL, poichè consente la sola rotazione della prima asta.</br>
-La cerniera mobile tra le due aste (in corrispondenza del ginocchio), toglie 2 GDL, poichè vincola le due aste a muoversi solidalmente.</br>
-Il carrello (in corrispondenza dell'anca), tolgie 1 GDL, poichè consente la rotazione, ma limita la traslazione in una sola direzione.</br>
+La **cerinera a terra** (in corrispondenza della caviglia), **toglie 2 GDL**, poichè consente la sola rotazione della prima asta.</br>
+La **cerniera mobile** tra le due aste (in corrispondenza del ginocchio), **toglie 2 GDL**, poichè vincola le due aste a muoversi solidalmente.</br>
+Il **carrello** (in corrispondenza dell'anca), **tolgie 1 GDL**, poichè consente la rotazione, ma limita la traslazione in una sola direzione.</br>
 **Il sistema presenta quindi 1 GDL**.
 
 ## Analisi cinematica

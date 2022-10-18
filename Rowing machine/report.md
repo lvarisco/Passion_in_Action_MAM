@@ -23,7 +23,8 @@ I dati raccolti sperimentlmente sono stati inseriti nel file  `data_stud.mat`, s
 Ogni matrice è composta da N righe (dove N è il numero di campioni della serie temporale) e 6 colonne:
 |Anca x|Anca y|Ginocchio x|Ginocchio y|Caviglia x|Caviglia y|
 |------|------|-----------|-----------|----------|----------|
-|Coordinate x marker anca|Coordinate y marker anca|Coordinate x marker ginocchio|Coordinate y marker ginocchio|Coordinate x marker caviglia|Coordinate y marker caviglia||
+|Coordinate x marker anca|Coordinate y marker anca|Coordinate x marker ginocchio|Coordinate y marker ginocchio|Coordinate x marker caviglia|Coordinate y marker caviglia|
+
 **N.B.**: i dati sono stati raccolti con una frequenza di **20Hz** e e coordinate sono espresse in **[mm]**.
 
 ## Schema cinematico

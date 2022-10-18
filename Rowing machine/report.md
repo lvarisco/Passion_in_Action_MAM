@@ -10,7 +10,7 @@ Prima di effettuare un esercizio con il vogatore, bisogna bloccare i piedi con l
 
 ## Set-up sperimentale
 
-Per raccogliere informazioni sulla cinematica del movimento durante la vogata, utilizziamo il sistema ottico Polaris Vicra, che si avvale della ricostruzione tridimensionale della posizione di marker retroriflettenti passivi ([dettagli](.././Lezione%204/appunti.md#Polaris%02Vicra)). Il Polaris Vicra, in particolare, si avvale dell’utilizzo di gruppi di marker passivi (tools) che permettono, grazie ad una geometria pre-definita, un riconoscimento automatico del tool all’interno dell’immagine acquisita dalle telecamere. I tool devono essere posizionati in punti strategici utili per la ricostruzione del movimento di interesse. In questo caso, i 3 tool sono stati posizionati in corrispondenza di:
+Per raccogliere informazioni sulla cinematica del movimento durante la vogata, utilizziamo il sistema ottico Polaris Vicra, che si avvale della ricostruzione tridimensionale della posizione di marker retroriflettenti passivi ([dettagli](.././Lezione%204/appunti.md#polaris-vicra)). Il Polaris Vicra, in particolare, si avvale dell’utilizzo di gruppi di marker passivi (tools) che permettono, grazie ad una geometria pre-definita, un riconoscimento automatico del tool all’interno dell’immagine acquisita dalle telecamere. I tool devono essere posizionati in punti strategici utili per la ricostruzione del movimento di interesse. In questo caso, i 3 tool sono stati posizionati in corrispondenza di:
 - anca
 - ginocchio
 - caviglia

@@ -25,7 +25,8 @@ Ogni matrice è composta da N righe (dove N è il numero di campioni della serie
 |------|------|-----------|-----------|----------|----------|
 |Coordinate x marker anca|Coordinate y marker anca|Coordinate x marker ginocchio|Coordinate y marker ginocchio|Coordinate x marker caviglia|Coordinate y marker caviglia|
 
-**N.B.**: i dati sono stati raccolti con una frequenza di **20Hz** e e coordinate sono espresse in **[mm]**.
+**N.B.**: i dati sono stati raccolti con una frequenza di **20Hz** e e coordinate sono espresse in **[mm]**.</br></br>
+Poichè le misurazioni sperimentali non sono contraddistinte da precisione assoluta, ma presentano degli errori di misurazione, i calcoli svolti su base teorica differiranno da quelli svolti sulla base dei dati sperimentali.
 
 ## Schema cinematico
 
@@ -44,6 +45,9 @@ Il **carrello** (in corrispondenza dell'anca), **tolgie 1 GDL**, poichè consent
 ## Analisi cinematica
 
 ### Lunghezza delle sezioni prossimale e distale
+
+Per calcolare la lunghezza delle sezioni prossimale (tra anca e ginocchio) e distale (tra ginocchio e caviglia), è possibile applicare il teorema di Pitagora tra le componenti x e le componenti y di ciascuna sezione, date dalla differenza tra le coordinate x e y dei rispettivi estremi (anca, ginocchio e caviglia). Poichè le posizioni dei tre punti significativi variano nel tempo, è possibile effettuare questa operazione per N volte, selezionando, infine, il valore maggiore tra tutti quelli calcolati.</br></br>
+**N.B.**: La scelta di selezionare il valore maggiore è una scelta arbitraria, si sarebbe potuto decidere di considerare il valore medio o il valore minore.
 
 ### Range of motion
 

@@ -2,7 +2,7 @@
 
 ## Descrizione del sistema
 
-La rowing machine (vogatore in italiano),  è un attrezzo chiamato anche remoergometro che riproduce il gesto che il canottiere compie in canoa o in barca e permette di allenare tutto il corpo (stimola fino all’80% dei muscoli di chi lo esegue).</br>
+La rowing machine (vogatore, in italiano),  è un attrezzo chiamato anche remoergometro che riproduce il gesto che il canottiere compie in canoa o in barca e permette di allenare tutto il corpo (stimola fino all’80% dei muscoli di chi lo esegue).</br>
 
 Prima di effettuare un esercizio con il vogatore, bisogna bloccare i piedi con le apposite cinghie sulla base di appoggio. La posizione di partenza (Figura A) si assume piegando le ginocchia finché il corpo non si trova vicino alle barre montate sulla parte frontale della macchina e si afferrano le barre con entrambe le mani. L’esercizio (vogata) consiste poi nel coordinare gambe e le braccia, mentre si spingono i piedi sulla pedana di appoggio, sfruttando la forza dei muscoli delle gambe (Figura B). Nello svolgimento di questo progetto, per semplificare l’analisi, so è considerato solamente il moto delle gambe.
 
@@ -23,7 +23,7 @@ I dati raccolti sperimentlmente sono stati inseriti nel file  `data_stud.mat`, s
 Ogni matrice è composta da N righe (dove N è il numero di campioni della serie temporale) e 6 colonne:
 |Anca x|Anca y|Ginocchio x|Ginocchio y|Caviglia x|Caviglia y|
 |------|------|-----------|-----------|----------|----------|
-|Coordinate x marker anca|Coordinate y marker anca|Coordinate x marker ginocchio|Coordinate y marker ginocchio|Coordinate x marker caviglia|Coordinate y marker caviglia|
+|Coordinate x marker anca|Coordinate y marker anca|Coordinate x marker ginocchio|Coordinate y marker ginocchio|Coordinate x marker caviglia|Coordinate y marker caviglia||
 **N.B.**: i dati sono stati raccolti con una frequenza di **20Hz** e e coordinate sono espresse in **[mm]**.
 
 ## Schema cinematico

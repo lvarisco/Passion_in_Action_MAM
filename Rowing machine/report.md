@@ -32,7 +32,7 @@ Poichè le misurazioni sperimentali non sono contraddistinte da precisione assol
 
 ### Rappresentazione grafica
 
-![Schema cinematico](./img/schema.png)
+<div align="center"><img src="./img/schema.png"/></div>
 
 ### Gradi di libertà
 
@@ -52,25 +52,25 @@ Per calcolare la lunghezza delle sezioni prossimale (tra anca e ginocchio) e dis
 ### Range of motion
 
 Per calcolare il range of motion, ovvero l'escursione angolare, del ginocchio è necessario calcolare l'angolo formato dalle due aste (che rappresentano le sezioni prossimale e distale della gamba), selezionare l'angolo massimo e quello minimo e farne la differenza.</br>
-![Range of motion](./img/Figure%201.jpg)
+<div align="center"><img src="./img/Figure%201.jpg" width="50%"/></div>
 
 ### Velocità e accelerazione dell'anca
 
 La velocità e l'accelerazione assoluta dell'anca (punto B nello [schema cinematico](./report.md#rappresentazione-grafica)) sono entrambe dirette orizzontalmente a causa del vincolo di carrello, posto proprio in corrispondenza dell'estremo B dell'asta AB (sezione prossimale della gamba).</br>
 Per calcolare le suddette grandezze in ogni istante di tempo, partendo dai dati sperimentali, è possibile sfruttare la definizione di derivata temporale calcolando il rapporto tra la differenza tra la coordinata x dell'anca nell'istante seguente a quello considerato e quella nell'istante cosiderato e l'intervallo di tempo dt. In questo modo, tramite un ciclo `for`, è possibile creare un vettore di velocità e accelerazioni istantanee dell'anca in ogni istante di tempo.</br>
-![Velocità e accelerazione anca](./img/Figure%202.jpg)
+<div align="center"><img src="./img/Figure%202.jpg" width="50%"/></div>
 
 ### Risoluzione teorica del cinematismo
 
 Dal punto di vista teorico è possibile risolvere il cinematismo utilizzando il metodo della chiusura cinematica.</br>
-![Chiusura cinematica](./img/chiusura.jpg)
+<div align="center"><img src="./img/chiusura.jpg" width="50%"/></div>
 </br>
 Innanzitutto è necessario definire gli angoli $\alpha$ e $\beta$ , che le due aste formano con l'orizzontale per ogni istante di tempo. Successivamente, conoscendo le velocità istantanee dell'anca (punto B), si può calcolare il vettore delle accelerazioni angolari, contenente i valori delle accelerazioni angolari delle due aste per ogni istante di tempo, risolvendo il sistema lineare di due equazioni in due incognite derivante dalla derivazione dele equazioni della chiusura cinematica. Derivando le due equazioni del sistema risolto precedentemente si ottengono altre due equazioni in due incognite, che sono le accelerazioni angolari delle due aste. Risolvendo questo sistema per ogni istante di tempo, si ricavano i vettori contenenti i valori delle accelereazioni angolari delle due aste per ogni istante di tempo.</br>
-![Velocità e accelerazioni angolari](./img/Figure%203.jpg)
+<div align="center"><img src="./img/Figure%203.jpg" width="50%"/></div>
 
 ### Confronto tra risoluzione teorica e dati sperimentali
 
-![Confronto](./img/Figure%204.jpg)
-![Confronto](./img/Figure%205.jpg)
-![Confronto](./img/Figure%206.jpg)
-![Confronto](./img/Figure%207.jpg)
+<div align="center"><img src="./img/Figure%204.jpg" width="50%"/></div>
+<div align="center"><img src="./img/Figure%205.jpg" width="50%"/></div>
+<div align="center"><img src="./img/Figure%206.jpg" width="50%"/></div>
+<div align="center"><img src="./img/Figure%207.jpg" width="50%"/></div>

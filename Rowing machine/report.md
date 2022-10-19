@@ -6,7 +6,7 @@ La rowing machine (vogatore, in italiano),  è un attrezzo chiamato anche remoer
 
 Prima di effettuare un esercizio con il vogatore, bisogna bloccare i piedi con le apposite cinghie sulla base di appoggio. La posizione di partenza (Figura A) si assume piegando le ginocchia finché il corpo non si trova vicino alle barre montate sulla parte frontale della macchina e si afferrano le barre con entrambe le mani. L’esercizio (vogata) consiste poi nel coordinare gambe e le braccia, mentre si spingono i piedi sulla pedana di appoggio, sfruttando la forza dei muscoli delle gambe (Figura B). Nello svolgimento di questo progetto, per semplificare l’analisi, so è considerato solamente il moto delle gambe.
 
-![Vogatore](./img/vogatore.png)
+<div align="center"><img src="./img/vogatore.png"/></div>
 
 ## Set-up sperimentale
 
@@ -15,7 +15,7 @@ Per raccogliere informazioni sulla cinematica del movimento durante la vogata, u
 - ginocchio
 - caviglia
 
-![Marker](./img/marker.png)
+<div align="center"><img src="./img/marker.png"/></div>
 
 ## Dati sperimentali
 

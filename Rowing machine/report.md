@@ -62,5 +62,10 @@ Per calcolare le suddette grandezze in ogni istante di tempo, partendo dai dati 
 
 ### Risoluzione teorica del cinematismo
 
+Dal punto di vista teorico è possibile risolvere il cinematismo utilizzando il metodo della chiusura cinematica.</br>
+![Chiusura cinematica](/img/chiusura.jpg)
+</br>
+Innanzitutto è necessario definire gli angoli $\alpha$ e $\beta$ , che le due aste formano con l'orizzontale per ogni istante di tempo. Successivamente, conoscendo le velocità istantanee dell'anca (punto B), si può calcolare il vettore delle accelerazioni angolari, contenente i valori delle accelerazioni angolari delle due aste per ogni istante di tempo, risolvendo il sistema lineare di due equazioni in due incognite derivante dalla derivazione dele equazioni della chiusura cinematica. Derivando le due equazioni del sistema risolto precedentemente si ottengono altre due equazioni in due incognite, che sono le accelerazioni angolari delle due aste. Risolvendo questo sistema per ogni istante di tempo, si ricavano i vettori contenenti i valori delle accelereazioni angolari delle due aste per ogni istante di tempo.
+
 ### Confronto tra risoluzione teorica e dati sperimentali
 

@@ -32,7 +32,7 @@ Poichè le misurazioni sperimentali non sono contraddistinte da precisione assol
 
 ### Rappresentazione grafica
 
-<div align="center"><img src="./img/schema.png"/></div>
+<div align="center"><img src="./img/schema.gif" width="50%"/></div>
 
 ### Gradi di libertà
 

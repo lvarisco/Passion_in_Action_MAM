@@ -70,3 +70,7 @@ Innanzitutto è necessario definire gli angoli $\alpha$ e $\beta$ , che le due a
 
 ### Confronto tra risoluzione teorica e dati sperimentali
 
+![Confronto](./img/Figure%204.jpg)
+![Confronto](./img/Figure%205.jpg)
+![Confronto](./img/Figure%206.jpg)
+![Confronto](./img/Figure%207.jpg)

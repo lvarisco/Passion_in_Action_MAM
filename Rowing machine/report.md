@@ -70,8 +70,12 @@ Innanzitutto è necessario definire gli angoli $\alpha$ e $\beta$ , che le due a
 
 ### Confronto tra risoluzione teorica e dati sperimentali
 
-Come mostrato dal confronto grafico tra le grandezze cinematiche relative al ginocchio ottenute tramite risoluzione teorica e quelle ottenute dai dati sperimentali sono presenti dei piccoli errori dovuti alla precisione non assoluta degli strumenti utilizzati e, in generale, delle misurazioni efffettuate, tuttavia gli andamenti di tali grandezze sono simili.
+Come mostrato dal confronto grafico tra le grandezze cinematiche relative al ginocchio ottenute tramite risoluzione teorica e quelle ottenute dai dati sperimentali sono presenti dei piccoli errori dovuti alla precisione non assoluta degli strumenti utilizzati e, in generale, delle misurazioni efffettuate, tuttavia gli andamenti di tali grandezze appaiono simili.
 <div align="center"><img src="./img/Figure%204.jpg" width="50%"/></div>
 <div align="center"><img src="./img/Figure%205.jpg" width="50%"/></div>
 <div align="center"><img src="./img/Figure%206.jpg" width="50%"/></div>
 <div align="center"><img src="./img/Figure%207.jpg" width="50%"/></div>
+
+## Analisi dinamica
+
+## Analisi delle oscillazioni

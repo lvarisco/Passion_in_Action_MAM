@@ -47,7 +47,7 @@ Il **carrello** (in corrispondenza dell'anca), **tolgie 1 GDL**, poichè consent
 ### Lunghezza delle sezioni prossimale e distale
 
 Per calcolare la lunghezza delle sezioni prossimale (tra anca e ginocchio) e distale (tra ginocchio e caviglia), è possibile applicare il teorema di Pitagora tra le componenti x e le componenti y di ciascuna sezione, date dalla differenza tra le coordinate x e y dei rispettivi estremi (anca, ginocchio e caviglia). Poichè le posizioni dei tre punti significativi variano nel tempo, è possibile effettuare questa operazione per N volte, selezionando, infine, il valore maggiore tra tutti quelli calcolati.</br></br>
-**N.B.**: La scelta di selezionare il valore maggiore è una scelta arbitraria, si sarebbe potuto decidere di considerare il valore medio o il valore minore.
+**N.B.**: La scelta di selezionare il valore maggiore è una scelta arbitraria, si sarebbe potuto decidere di considerare il valore medio o il valore minore. Considerando, però, che nei dati sperimentali potrebbero esserci dei buchi nei dati e che, per questo motivo, in alcuni istanti di tempo le lunghezze delle aste potrebbero risultare nulle, prendere il valore massimo consente di discostarsi il meno possibile dalla realtà.
 
 ### Range of motion
 

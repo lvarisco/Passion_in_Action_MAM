@@ -7,6 +7,34 @@ load('data_stud.mat');
 dt=1/20; %frequenza=20Hz
 time=0:dt:(size(otto,1)-1)*dt;
 
+%% Schema cinematico
+%{
+hfig=figure(100);
+writeObj=VideoWriter('schema.avi');
+writeObj.FrameRate=20;
+open(writeObj)
+for ii=1:length(time)
+    try
+        delete(h1)
+        delete(h2)
+        delete(pallino)
+    end
+    h1=line([otto(ii,5)/10 otto(ii,3)/10],[otto(ii,6)/10 otto(ii,4)/10]);
+    set(h1,'color','r','linewidth',2)
+    h2=line([otto(ii,3)/10 otto(ii,1)/10],[otto(ii,4)/10 otto(ii,2)/10]);
+    set(h2,'color','g','linewidth',2)
+    hold on
+    pallino=plot([otto(ii,5)/10 otto(ii,3)/10 otto(ii,1)/10],[otto(ii,6)/10 otto(ii,4)/10 otto(ii,2)/10],'ok')
+    axis equal
+    axis([-45 45 -30 15])
+    axis on
+    frame=getframe(hfig); % catturo frame della figura
+    writeVideo(writeObj,frame) % scrivo frame su oggetto video
+    pause(0.05)
+end
+close(writeObj)
+%}
+
 %% STEP3.1
 % sezione prossimale (SP) >> tra anca e ginocchio
 SP = max(sqrt((otto(:,1)-otto(:,3)).^2+(otto(:,2)-otto(:,4)).^2));
@@ -27,7 +55,7 @@ delta_ROM=ROM(2)-ROM(1);
 figure(1)
 plot(time,teta)
 xlabel('t [s]')
-ylabel('teta [°]')
+ylabel('\theta [°]')
 title('Range of motion')
 
 %% STEP3.3
@@ -51,6 +79,32 @@ grid on
 xlabel('t [s]')
 ylabel('a [mm/s^2]')
 title('Accelerazione dell''anca')
+
+%% Chiusura cinematica
+%{
+figure(200)
+hh1=quiver(otto(1,5),otto(1,6),otto(1,3)-otto(1,5),otto(1,4)-otto(1,6),0);
+set(hh1,'color','r')
+text(otto(1,5),otto(1,6),'O','color','black')
+text(otto(1,5),otto(1,6),'a','color','r')
+hold on
+hh2=quiver(otto(1,3),otto(1,4),otto(1,1)-otto(1,3),otto(1,2)-otto(1,4),0);
+set(hh2,'color','g')
+text(otto(1,3),otto(1,4),'A','color','black')
+text(otto(1,3),otto(1,4),'b','color','g')
+hold on
+hh3=quiver(otto(1,5),otto(1,6),otto(1,1)-otto(1,5),0,0);
+set(hh3,'color','b')
+text(otto(1,1),otto(1,2),'B','color','black')
+text(otto(1,5),otto(1,6),'c','color','b')
+hold on
+hh4=quiver(otto(1,1),otto(1,6),0,otto(1,2)-otto(1,6),0);
+set(hh4,'color','m')
+text(otto(1,1),otto(1,6),'H','color','black')
+text(otto(1,1),otto(1,6),'d','color','m')
+axis equal
+axis off
+%}
 
 %% STEP3.4
 a=SD;
@@ -110,7 +164,7 @@ plot(time(1:end-1),betap,'r')
 legend("vel angolare stinco","vel angolare coscia")
 grid on
 xlabel('t [s]')
-ylabel('w [rad/s]')
+ylabel('\omega [rad/s]')
 title('Velocità angolari di stico e coscia')
 subplot(212)
 plot(time(1:end-2),alfapp,'b')
@@ -119,7 +173,7 @@ plot(time(1:end-2),betapp,'r')
 legend("acc angolare stinco","acc angolare coscia")
 grid on
 xlabel('t [s]')
-ylabel('wp [rad/s^2]')
+ylabel('$\dot{\omega} [{rad}/{s^{2}}]$','Interpreter','latex')
 title('Accelerazioni angolari di stico e coscia')
 %Calcolo della velocità (teorica) del ginocchio tramite Th. di Rivals
 for ii=1:length(dp)
@@ -181,4 +235,4 @@ xlabel('t [s]')
 ylabel('acc [m/s^2]')
 title('Accelerazione del ginocchio lungo y')
 
-%%
+%% STEP4.1

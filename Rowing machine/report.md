@@ -75,7 +75,3 @@ Come mostrato dal confronto grafico tra le grandezze cinematiche relative al gin
 <div align="center"><img src="./img/Figure%205.jpg" width="50%"/></div>
 <div align="center"><img src="./img/Figure%206.jpg" width="50%"/></div>
 <div align="center"><img src="./img/Figure%207.jpg" width="50%"/></div>
-
-## Analisi dinamica
-
-## Analisi delle oscillazioni

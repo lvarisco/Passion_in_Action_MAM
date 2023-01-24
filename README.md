@@ -10,3 +10,4 @@ Appunti, esercizi e progetti relativi al corso "Passion in Action" di Meccanica 
 
 ## Report progetti
 - [Rowing machine](Rowing%20machine/report.md)
+- [Esoscheletro](Esoscheletro/report.md)

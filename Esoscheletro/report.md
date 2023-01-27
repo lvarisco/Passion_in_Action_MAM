@@ -26,9 +26,23 @@ Poichè le misurazioni sperimentali non sono contraddistinte da precisione assol
 <div align="center"><img src="./img/schema.gif" width="50%"/></div>
 
 ### Gradi di libertà
-Il sistema è composto da **tre corpi rigidi** (sarebbero quattro, ma consideriamo un movimento solidale dei tratti M2M4 ed M4M5), caratterizzati ciascuno da 3 GDL, per un totale di **9 GDL**.</br>
+Il sistema è composto da **tre corpi rigidi** (sarebbero quattro, ma consideriamo un movimento solidale dei tratti M2-M4 ed M4-M5), caratterizzati ciascuno da 3 GDL, per un totale di **9 GDL**.</br>
 Le **cerinere a terra** (in corrispondenza di M1 ed M2), **tolgono 2 GDL ciascuna**, poichè consentono la sola rotazione delle due aste incernierate.</br>
 Le **cerniere mobili** tra le due aste (in corrispondenza di M3 ed M4), **tolgono 2 GDL ciascuna**, poichè vincolano le due aste incernierate a muoversi solidalmente.</br>
 **Il sistema presenta quindi 1 GDL**.
 
 ## Analisi cinematica
+
+### Storia temporale del marker M2
+È possibile calcolare le coordinate del marker M2 per ogni istante di campionamento sapendo che la coordinata x risulta la stessa del marker M1, mentre la coordinata y è la coordinata y del marker M1 diminuita di 24mm.
+
+### Lunghezze M1-M2, M1-M3, M2-M4 e M3-M4
+Conoscendo la posizione dei punti istante per istante e applicando il teorema di Pitagora, è possibile ricavare la lunghezza dei segmenti.</br>
+Tutte le misurazioni reali presentano degli errori di misurazione, per questo motivo, calcolando la lunghezza dei segmenti per ogni istante di tempo, risulteranno valori più o meno diversi in base alla dimensione dell'errore. In generale si potrebbero selezionare tre diversi valori di lunghezza: il valore minimo, il valore medio o il valore massimo tra i valori calcolati.
+
+### Traiettoria sperimentale dei punti acquisiti
+Plottando le posizioni dei punti relative a tutti gli istanti di tempo campionati si ottengono le traiettorie dei vari marker.
+<div align="center"><img src="./img/traiettorie_marker.jpg" width="50%"/></div>
+Si può notare come i marker M1 ed M2 risultino, con un'ottima approssimazione, fermi. Nella realtà, infatti, tali marker sono stati applicati in corrispondenza delle due cerniere a cui è agganciato il supporto per il braccio, che risultano macroscopicamente fermi. I marker M3 ed M4 percorrono due archi di circonferenza centrati rispettivamente in corrispondenza dei marker M1 ed M2. La traiettoria del marker M5, invece, risulta approsimativamente un arco di circonferenza, ma è visibilmente diversa. Questo è dovuto al movimento effettivo che è stato svolto durante il campionamento. Si evince, quindi, che il soggetto non è stato in grado di mantenere perfettamente fermo l'avambraccio rispetto al braccio.
+
+### Posizione e traiettoria dei baricentri G1 e G2

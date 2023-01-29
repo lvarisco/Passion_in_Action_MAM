@@ -85,6 +85,7 @@ Si ipotizza un contributo normalizzato dei muscoli estensori pari al 10% dei mus
 |Cf|Ce|
 |----|----|
 |-0.9523 Nm|-0.0952 Nm|
+
 È possibile notare che i moduli delle due coppie risultano essere piccoli, infatti il supporto antigravitario elimina la gravità, che costituisce la componente principale da vinciere per il sollevamento del braccio.</br>
 Un altro risultato rilevante è il segno delle due coppie, che risulta essere negativo. Questo risultato è apparentemente in contrasto con la fisica del movimento e, in parte, lo è, poichè i muscoli antagonisti, contraendosi, generano le coppie sempre negli stessi versi (quelli indicati in figura). Questo risultato può essere spiegato riflettendo sul verso delle velocità e delle accelerazioni. Nell'atto di moto considerato, infatti, il braccio risulta essere in salita, infatti le velocità sono rivolte verso l'alto (come si evince dalla rappresentazione dei vettori velocità dei baricentri), ma le accelerazioni sono rivolte verso il basso (come si evince dalla rappresentazione dei vettori accelerazione dei baricentri), ciò significa che si ha un moto decelerato. In queste condizioni, poichè la gravità è completamente bilanciata dal supporto antigravitario, sono i muscoli stessi ad opporsi al moto, generando un contributo totale nel verso opposto a quello del moto (da qui il segno meno). Nella realtà saranno quindi i muscoli estensori a fornire un contributo maggiore rispetto a quelli flessori. Se si considerasse un contributo normalizzato dei muscoli flessori pari al 10% dei muscoli estensori (caso opposto a quello consideranto nello svolgimento del progetto), infatti, le due coppie risulterebbero avere medisimi moduli ma versi opposti (segni positivi).
 
@@ -92,6 +93,7 @@ Un altro risultato rilevante è il segno delle due coppie, che risulta essere ne
 |Cf_g|Ce_g|
 |----|----|
 |6.8792 Nm|0.6879 Nm|
+
 Le coppie calcolate senza il supporto antigravitario risultano essere circa sette volte maggiori rispetto a quelle calcolate precedentemente e positive. In queste condizioni, infatti, i muscoli dovranno fare uno sforzo maggiore per compiere lo stesso movimento. Il segno risulta essere, giustamente, positivo, poichè in questo caso è presente la gravità, che si oppone naturalmente al moto del braccio in salita, quindi ai muscoli basterà generare delle coppie più piccole in modulo per dare vita ad una decelerazione.
 
 ### Reazioni vincolari in M1 e M2 con aggancio alla carrozzina

@@ -46,3 +46,33 @@ Plottando le posizioni dei punti relative a tutti gli istanti di tempo campionat
 Si può notare come i marker M1 ed M2 risultino, con un'ottima approssimazione, fermi. Nella realtà, infatti, tali marker sono stati applicati in corrispondenza delle due cerniere a cui è agganciato il supporto per il braccio, che risultano macroscopicamente fermi. I marker M3 ed M4 percorrono due archi di circonferenza centrati rispettivamente in corrispondenza dei marker M1 ed M2. La traiettoria del marker M5, invece, risulta approsimativamente un arco di circonferenza, ma è visibilmente diversa. Questo è dovuto al movimento effettivo che è stato svolto durante il campionamento. Si evince, quindi, che il soggetto non è stato in grado di mantenere perfettamente fermo l'avambraccio rispetto al braccio.
 
 ### Posizione e traiettoria dei baricentri G1 e G2
+Servendosi delle tabelle antropometriche, è possibile calcolare la posizione dei barecentri G1 e G2, realitivi rispettivamente alle aste M2-M4 ed M4-M5.
+<div align="center"><img src="./img/traiettorie_baricentri.jpg" width="50%"/></div>
+Si può notare come le traiettorie risultino simili, rispettivamente, alle traiettorie dei punti M4 ed M5, anche se ricalcano approssimativamente due archi di circonferenza con raggi inferiori, poichè i baricentri si trovano ad una distanza inferiore dal centro di rotazione rispetto ai due marker.
+
+### Range of motion della spalla
+Per calcolare il range of motion della spalla si può definire l'angolo (), che il segmento M2M4 (il braccio) forma con la verticale, istante per istante. Per effettuare questa operazione è possibile ricorrere al prodotto scalare. Si selezionano infine i valori massimo e minimo di  e se ne fa la differenza.
+<div align="center"><img src="./img/rom.jpg" width="50%"/></div>
+
+### Velocità e accelerazione di M4
+Poichè la velocità risulta essere la derivata della posizione e l'accelerazione la derivata della velocità, conoscendo la posizione del marker M4 per ogni istante di tempo, è possibile ricavare i valori della velocità e dell'acelerazione di tale punto sfruttando la definizione di derivata.
+<div align="center"><img src="./img/vel_acc_M4.jpg" width="50%"/></div>
+
+### Risoluzione del cinematismo
+Conoscendo velocità e accelerazione del marker M4 è possibile risolvere il cinematismo mediante il metodo della chiusura cinematica.
+<div align="center"><img src="./img/vel_acc_angolari_M3.jpg" width="50%"/></div>
+Poiché braccio e avambraccio si muovono solidalmente, la velocità e l'accelerazione angolare dei due tratti sono le medesime.
+<div align="center"><img src="./img/vel_acc_angolari_M5.jpg" width="50%"/></div>
+
+### Confronto teorico-sperimentale di velocità e accelerazione angolari di M5
+Conoscendo velocità e accelerazione di M5 è possibile ricavare la velocità e l'accelerazione angolare di M5 (rispetto al suo centro di rotazione M2) mediante il rapporto tra velocità lineare e lunghezza del segmento M2M5 e derivando la velocità trovata per ricavare l'accelerazione.
+<div align="center"><img src="./img/confronto_vel_M5.jpg" width="50%"/></div>
+Dalla figura si può vedere come le due curve presentano un andamento simile, anche se presentano due ampiezze diverse. Queste differenze sono dovute all'errore dovuto all'incapacità del soggetto di mantenere perfettamente fermo l'avambraccio rispetto al braccio durante il campionamento dei dati.
+<div align="center"><img src="./img/confronto_acc_M5.jpg" width="50%"/></div>
+Le stesse considerazione fatte per le velocità angolari risultano valide anche per le accelerazioni.
+
+## Analisi dinamica
+
+### Coppia muscolare con supporto antigravitario
+
+### Coppia muscolare senza supporto antigravitario

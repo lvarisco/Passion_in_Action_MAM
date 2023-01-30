@@ -108,6 +108,23 @@ Le coppie calcolate senza il supporto antigravitario risultano essere circa sett
 
 ## Analisi delle vibrazioni
 Per fornire al paziente un feedback che sia in grado di indicare l’avvenuta interazione con oggetti durante gli esercizi mediati da exergames si vuole utilizzare una vibrazione a livello dell’end-effector. Si è considerato una modellazione semplificata del “grip module”, sezione del dispositivo che genera la vibrazione:
-<img src="./img/vibrazioni.jpg" width="50%"/>
+<img src="./img/vibrazioni.png" width="50%"/>
 
-### 
+### Risposta libera non smorzata
+<img src="./img/risposta_libera.png" width="50%"/>
+
+### Risposta libera smorzata
+<img src="./img/risposta_smorzata.png" width="50%"/>
+
+### Modulo e fase dalla funzione di trasferimento della risposta forzata
+<img src="./img/mod&fase_risposta_forzata.png" width="50%"/>
+
+### Risposta forzata a regime
+<img src="./img/risposta_forzata_regime.png" width="50%"/>
+
+### Risposta forzata completa
+<img src="./img/risposta_forzata_completa.png" width="50%"/>
+
+### Scelta progettuale
+La pulsazione di eccitazione W scelta risulta essere circa un quarto della pulsazione naturale .
+Dal grafico del modulo, si evince che il modulo per W=0 è pari ad 1, mentre per W->infito tende a 0. Si deduce che, per W=0, lo spostamento relativo risulta essere nullo, mentre, per W->infinito, la massa rimane pressochè ferma. Sulla base di queste considerazioni sarebbe opportuno eccitare il sistema con una pulsazione W vicina alla pulsazione naturale wn.

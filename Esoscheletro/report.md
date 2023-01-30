@@ -107,3 +107,7 @@ Le coppie calcolate senza il supporto antigravitario risultano essere circa sett
 |0 N|0 N|0.5766 N|48.0789 N|
 
 ## Analisi delle vibrazioni
+Per fornire al paziente un feedback che sia in grado di indicare l’avvenuta interazione con oggetti durante gli esercizi mediati da exergames si vuole utilizzare una vibrazione a livello dell’end-effector. Si è considerato una modellazione semplificata del “grip module”, sezione del dispositivo che genera la vibrazione:
+<img src="./img/vibrazioni.jpg" width="50%"/>
+
+### 

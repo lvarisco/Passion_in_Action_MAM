@@ -107,23 +107,23 @@ Le coppie calcolate senza il supporto antigravitario risultano essere circa sett
 |0 N|0 N|0.5766 N|48.0789 N|
 
 ## Analisi delle vibrazioni
-Per fornire al paziente un feedback che sia in grado di indicare l’avvenuta interazione con oggetti durante gli esercizi mediati da exergames si vuole utilizzare una vibrazione a livello dell’end-effector. Si è considerato una modellazione semplificata del “grip module”, sezione del dispositivo che genera la vibrazione:
-<img src="./img/vibrazioni.png" width="50%"/>
+Per fornire al paziente un feedback che sia in grado di indicare l’avvenuta interazione con oggetti durante gli esercizi mediati da exergames si vuole utilizzare una vibrazione a livello dell’end-effector. Si è considerato una modellazione semplificata del “grip module”, sezione del dispositivo che genera la vibrazione:</br>
+<div align="center"><img src="./img/vibrazioni.png" width="30%"/></div>
 
 ### Risposta libera non smorzata
-<img src="./img/risposta_libera.png" width="50%"/>
+<div align="center"><img src="./img/risposta_libera.jpg" width="50%"/></div>
 
 ### Risposta libera smorzata
-<img src="./img/risposta_smorzata.png" width="50%"/>
+<div align="center"><img src="./img/risposta_smorzata.jpg" width="50%"/></div>
 
 ### Modulo e fase dalla funzione di trasferimento della risposta forzata
-<img src="./img/mod&fase_risposta_forzata.png" width="50%"/>
+<div align="center"><img src="./img/mod&fase_risposta_forzata.jpg" width="50%"/></div>
 
 ### Risposta forzata a regime
-<img src="./img/risposta_forzata_regime.png" width="50%"/>
+<div align="center"><img src="./img/risposta_forzata_regime.jpg" width="50%"/></div>
 
 ### Risposta forzata completa
-<img src="./img/risposta_forzata_completa.png" width="50%"/>
+<div align="center"><img src="./img/risposta_forzata_completa.jpg" width="50%"/></div>
 
 ### Scelta progettuale
 La pulsazione di eccitazione W scelta risulta essere circa un quarto della pulsazione naturale .

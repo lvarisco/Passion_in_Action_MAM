@@ -1,5 +1,5 @@
 # Passion_in_Action_MAM
-Appunti, esercizi e progetti relativi al corso "Passion in Action" di Meccanica Applicata alle Macchine effettuato presso Politecnico di Milano
+Appunti, esercizi e progetti relativi al corso "Passion in Action" di Meccanica Applicata alle Macchine [MAM] effettuato presso Politecnico di Milano
 
 ## Appunti
 - [Lezione 1](Lezione%201/appunti.md)
